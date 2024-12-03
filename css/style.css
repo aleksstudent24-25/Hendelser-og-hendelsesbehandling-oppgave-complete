@@ -1,1 +1,40 @@
 /* Add styles here to make the soundboard actually look like a soundboard! */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("../images/Space.jpg");
+  display: flex;
+  min-height: 100vh;
+  min-width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+#drumkit {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+}
+
+button {
+  font-size: 32px;
+  border: none;
+  border-radius: 10px;
+  padding: 50px;
+  background-color: #ff0000;
+}
+
+button:hover {
+  box-shadow: 0 0 10px #e04f4f;
+  /* border: 1px #bd0000 solid; */
+}
+
+button:active {
+  color: #fff4f4;
+  box-shadow: 0 0 10px #fff4f4;
+}

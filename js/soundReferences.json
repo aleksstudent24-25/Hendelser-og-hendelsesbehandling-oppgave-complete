@@ -1,0 +1,10 @@
+{
+  "soundFiles": [
+    { "file": "./sounds/cup.wav", "keybind": "q" },
+    { "file": "./sounds/infobleep.wav", "keybind": "w" },
+    { "file": "./sounds/treasure.wav", "keybind": "e" },
+    { "file": "./sounds/wooden-hover.wav", "keybind": "r" },
+    { "file": "./sounds/splat.wav", "keybind": "t" },
+    { "file": "./sounds/page-turn.wav", "keybind": "y" }
+  ]
+}
